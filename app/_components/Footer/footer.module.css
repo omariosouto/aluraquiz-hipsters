@@ -1,0 +1,9 @@
+.footer {
+  margin-top: 24px;
+  display: flex;
+  gap: 22px;
+}
+
+.footer p {
+  font-weight: bold;
+}

@@ -1,0 +1,71 @@
+
+/* CSS Theme */
+:root {
+  --primary: #3F51B5;
+  --primary-100: #A0A6CB;
+  --accent: #E91E63;
+  --bg: #171B35;
+  --text: #FFFFFF;
+}
+
+/* Reset */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+/* ======================= */
+/* DEFAULT FORM COMPONENTS */
+/* ======================= */
+button {
+  background-color: #E91E63;
+  text-transform: uppercase;
+  letter-spacing: 1.25px;
+  transition: opacity .2s;
+  width: 100%;
+  color: var(--text);
+  border: 0;
+  cursor: pointer;
+  padding: 10px 16px;
+  border-radius: 4px;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.12), 0 2px 2px 0 rgba(0,0,0,0.12);
+}
+button:hover,
+button:focus {
+  opacity: 0.7;
+}
+
+input[type="text"] {
+  width: 100%;
+  color: var(--text);
+  padding: 10px 16px;
+  background-color: var(--bg);
+  border-radius: 4px;
+  border: 1px solid var(--primary-100);
+}
+::placeholder {
+  color: var(--primary-100);
+}
+
+
+/* Desafio: Converter para os componentes */

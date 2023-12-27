@@ -1,0 +1,25 @@
+.screen {
+  background-size: cover;
+  background-position: center center;
+  padding-top: 40px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+@media (min-width: 600px) {
+  .screen {
+    background-image: url("/images/bg.jpg");
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+.container {}
+
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 350px;
+  }
+}
